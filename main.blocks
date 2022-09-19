@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ccb-JydnFn0G~6;|-F(G">balls</variable><variable id="*!Hm5mf.fn?T{LMh.3-@">strike</variable><variable id="T)=lx$5oduOor[l)0_41">sprite</variable><variable id="%/ik_u;$uS5U`WOy()qO">count</variable></variables><block type="device_button_event" id="b1oA,y#ju^?BB(4V.7b8" x="329" y="-19"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="L09WGufo:u^RudgExUhQ"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="variables_change" id="?RN}/;r-:Y|OiF-E,NCd"><field name="VAR" id="*!Hm5mf.fn?T{LMh.3-@">strike</field><value name="VALUE"><shadow type="math_number" id="yL,_[pm?r)=-OCDZ){Dp"><field name="NUM">1</field></shadow></value><next><block type="device_show_number" id="stS8/OQe|X1F(w7oO2zw"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="B50)qA%{Q=I-udbhnJy("><field name="VAR" id="*!Hm5mf.fn?T{LMh.3-@">strike</field></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="H:-9(*5DKN]~}|N.W1r=" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="[y:ZXJnJYxe*PK9hMbM`"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="variables_change" id="Pc~{:`Er{*ArAL7]@`J["><field name="VAR" id="ccb-JydnFn0G~6;|-F(G">balls</field><value name="VALUE"><shadow type="math_number" id="Qj:BXQH.d~ss9L_A[D+^"><field name="NUM">1</field></shadow></value><next><block type="device_show_number" id="DXD.`6c/]-[?WN(#e,}3"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="MT!%=bRGtK8SUs8)]QCt"><field name="VAR" id="ccb-JydnFn0G~6;|-F(G">balls</field></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="yQZe(A~fmswQeN[FWJ3U" x="666" y="-18"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="2.,sS_2iK1ST/5iAzhKm"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_number" id="e/r;4He(!YfN_l/tI0[D"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="`5+tzP@:^Jx+X#PniO=@"><field name="VAR" id="ccb-JydnFn0G~6;|-F(G">balls</field></block></value><next><block type="device_show_leds" id="R9OEm]tcOir2m~c7q9ON"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_number" id=",y{lMt1u-_f0Jp?Cm+Mh"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="RgSEI^pL[:#KB./)/d1e"><field name="VAR" id="*!Hm5mf.fn?T{LMh.3-@">strike</field></block></value></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="S^gq|Bd@;zq72oOQF;qc" x="-224" y="131"><statement name="HANDLER"><block type="device_show_number" id="4+f}ImnfSM}5KSC0H2y$"><value name="number"><shadow type="math_number" id="99-,wHoDtZ;Kp~i~Lw,a"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="wle*D~?Wbbo=-$Wqz*_K"><field name="VAR" id="%/ik_u;$uS5U`WOy()qO">count</field><value name="VALUE"><shadow type="math_number" id="oa2Afx!z@A7mmv;zqL+F"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="$!Yb9fCBJh0P5w_Y2;*+" x="22" y="276"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="NvrMpzmy8K;Hz;oPCgz6"><value name="number"><shadow type="math_number" id="}iqE!A!,74a6ZYj)EO!j"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="l^~KyS,kJmG9jk%[JV`|" x="-186" y="444"></block><block type="device_gesture_event" id="ablFd+H6@=5$KPC|*p(c" x="52" y="583"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="variables_set" id="dKSj6!/WYk?Wne.p[{Y5"><field name="VAR" id="ccb-JydnFn0G~6;|-F(G">balls</field><value name="VALUE"><shadow type="math_number" id="FYUsLF,w8zqn`syua;A#"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="7e~^zdYL]+:jl(F{5gTE"><field name="VAR" id="%/ik_u;$uS5U`WOy()qO">count</field><value name="VALUE"><shadow type="math_number" id="#dR/Orz}zlUZMSEs@_M8"><field name="NUM">0</field></shadow></value><next><block type="device_clear_display" id="B,jiI@Qyg*@eQVvD{$jg"></block></next></block></next></block></statement></block></xml>
